@@ -93,8 +93,8 @@ class Shape{
 
 
 var margin = {top: 40, right: 40, bottom: 60, left: 80},
-		width = 500,
-	height = 500;
+		width = 1000,
+	height = 1000;
 
 var xScale = d3.scaleLinear()
 				.domain([-100,100])

@@ -93,7 +93,7 @@ h1{
   text-align: center;
   line-height: 100%;
 	overflow: hidden;
-	background: rgba(255, 255, 255, .85);
+	background: rgba(255, 255, 255, .65);
 	border-radius: 3px;
 }
 
@@ -170,12 +170,6 @@ a i{
 }
 a i:hover{
 	opacity: 1;
-}
-.animation{
-  position: absolute;
-  top:0;
-  left:0;
-  z-index: -1;
 }
 
 #emailForm input{
@@ -386,6 +380,21 @@ a i:hover{
 }
 
 #chart{
-  margin-top: -5em;
-  margin-bottom: -5em;
+    position: absolute;
+    left:50%;
+    top:-10%;
+    z-index: -1;
+}
+
+#chart svg{
+  position: relative;
+  left:-50%;
+}
+
+.main{
+  padding-top:10%;
+  overflow: hidden;  
+}
+body{
+  overflow: hidden;
 }
