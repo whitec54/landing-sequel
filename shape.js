@@ -231,4 +231,4 @@ function morph_shape(){
 	}
 }
 
-setInterval ( morph_shape, 12000 );
+setInterval ( morph_shape, 9000 );
